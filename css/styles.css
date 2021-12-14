@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Oxygen', sans-serif;
+    background-color: #ffb9d1;
+}
+
+/* Texts */
+.active{
+    color: red;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    line-height: 23px;
+}
+
+/* Header */
+.header{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+
+.header h1{
+    font-weight: lighter;
+    font-size: 50px;
+    margin-top: 13px;
+}
+
+/* Main content */
+/* Fonts */
+.fonts-main{
+    background-color: white;
+    width: 65%;
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #5e5e5e;
+}
+
+.fonts-main h2{
+    color: rgb(29, 29, 29);
+    margin: 30px 0px 0px 60px;
+    font-size: 25px;
+}
+
+.fonts-main h3{
+    margin: 20px 0px 0px 70px;
+}
+
+.fonts-main p{
+    font-family: 'Oxygen', sans-serif;
+    width: 80%;
+    margin-left: 70px;
+}
+
+/* Buttons */
+.buttons-main{
+    background-color: white;
+    width: 30%;
+    height: 400px;
+    float: right;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #5e5e5e;
+}
+
+.buttons-main h2{
+    color: rgb(29, 29, 29);
+    margin: 30px 0px 0px 60px;
+    font-size: 25px;
+}
+
+.btn{
+    width: 110px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 40px 0px 0px 30px;
+    display: inline;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-1{
+    background-color: #2196f3;
+    border: none;
+}
+
+.btn-2{
+    background-color: #ff9822;
+    border: none;
+    box-shadow: 3px 3px 0px black;
+}
+
+.btn-3{
+    background-color: rgb(21, 255, 0);
+    border: 2px solid black;
+}
+
+.btn-4{
+    background-image: linear-gradient(to right , orange , red);
+}
+
+.btn-5{
+    background-image: linear-gradient(to bottom , rgb(0, 221, 0) , rgb(3, 43, 9));
+}
+
+.btn-6{
+    background-color: rgba(134, 124, 124, 0.5);
+    border: none;
+    cursor: not-allowed;
+}
+
+.hover:hover{
+    box-shadow: 5px 5px 5px rgb(82, 82, 82);
+}
+
+/* Colors */
+.colors-main{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    float: left;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #5e5e5e;
+}
+
+.colors-main h2{
+    color: rgb(29, 29, 29);
+    margin: 20px 0px 0px 60px;
+    font-size: 25px;
+}
+
+.colors-main h3{
+    text-align: center;
+    padding-top: 35px;
+    color: white;
+    font-weight: lighter;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4{
+    width: 220px;
+    height: 100px;
+    margin: 10px 0px 0px 20px;
+    display: inline-block;
+}
+
+.color-1{
+    background-color: #9c27b0;
+}
+
+.color-2{
+    background-color: #e91e63;
+}
+
+.color-3{
+    background-color: #03a9f4;
+}
+
+.color-4{
+    background-color: #f44336;
+}
+
+/* Footer */
+.footer{
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    height: 60px;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.footer p{
+    margin-top: 15px;
+}
+
+/* Responsive Section/Ipad */
+@media only screen and (max-width: 768px){
+    /* Header */
+    .header{
+        width: 780;
+        height: 230px;
+        float: left;
+    }
+    
+    .header h1{
+        margin-left: 30px;
+    }
+    
+    .header p{
+        margin-left: 30px;
+    }
+
+    /* Fonts */
+    .fonts-main{
+        width: 53%;
+        height: 450px;
+        margin-left: 10px;
+    }
+    
+    .fonts-main h2{
+        margin: 30px 0px 0px 30px;
+    }
+
+    .fonts-main h3{
+        margin: 15px 0px 0px 40px;
+    }
+    
+    .fonts-main p{
+        font-family: 'Oxygen', sans-serif;
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    /* Buttons */
+    .buttons-main{
+        width: 40%;
+        height: 450px;
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .buttons-main h2{
+        margin: 30px 0px 0px 30px;
+    }
+    
+    .btn{
+        width: 200px;
+        margin: 15px 0px 0px 40px;
+        display: block;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Colors */
+    .colors-main{
+        width: 95%;
+        margin-left: 10px;
+    }
+    
+    .colors-main h2{
+        margin: 20px 0px 0px 30px;
+    }
+
+    .colors-main h3{
+        padding-top: 35px;
+        color: white;
+        font-weight: lighter;
+    }
+    
+    .color-1,
+    .color-2,
+    .color-3,
+    .color-4{
+        width: 150px;
+        height: 100px;
+        margin: 10px 0px 0px 20px;
+        display: inline-block;
+    }
+}
+
+/* Responsive Section/Mobile */
+@media only screen and (max-width: 500px){
+
+    /* Header */
+    .header{
+        width: 400px;
+        height: 200px;
+    }
+    
+    .header h1{
+        font-weight: lighter;
+        font-size: 35px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .header p{
+        width: 200px;
+        margin-left: 20px;
+    }
+
+    /* Fonts */
+    .fonts-main{
+        width: 300px;
+        height: 500px;
+        margin-left: 10px;
+    }
+    
+    .fonts-main h2{
+        margin: 20px 0px 0px 40px;
+        font-size: 20px;
+    }
+    
+    .fonts-main h3{
+        margin: 25px 0px 0px 40px;
+        font-size: 17px;
+    }
+    
+    .fonts-main p{
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    /* Buttons */
+    .buttons-main{
+        width: 300px;
+        height: 400px;
+        float: left;
+        margin-left: 10px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 0px #5e5e5e;
+    }
+
+    .buttons-main h2{
+        color: rgb(29, 29, 29);
+        margin: 20px 0px 0px 40px;
+        font-size: 20px;
+    }
+
+    .btn{
+        margin: 40px 0px 0px 25px;
+    }
+
+    /* Colors */
+    .colors-main{
+        margin-left: 10px;
+        width: 300px;
+        height: 400px;
+    }
+    
+    .colors-main h2{
+        color: rgb(29, 29, 29);
+        margin: 20px 0px 0px 40px;
+        font-size: 20px;
+    }
+
+    .colors-main h3{
+        padding: 15px;
+    }
+
+    .color-1,
+    .color-2,
+    .color-3,
+    .color-4{
+        width: 260px;
+        height: 60px;
+        margin: 20px 0px 0px 20px;
+        display: block;
+    }
+
+    /* Footer */
+    .footer{
+        text-align: left;
+        font-size: 13px;
+    }
+    
+    .footer p{
+        margin-top: 12px;
+        margin-left: 50px;
+    }
+}
